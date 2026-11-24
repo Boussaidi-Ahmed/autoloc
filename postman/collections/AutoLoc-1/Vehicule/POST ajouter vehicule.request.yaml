@@ -1,0 +1,21 @@
+$kind: http-request
+url: http://localhost:8080/vehicule
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"immatriculation\": \"999TUN9999\",\r
+
+    \  \"marque\": \"Dacia\",\r
+
+    \  \"modele\": \"Sandero\",\r
+
+    \  \"categorie\": \"CITADINE\",\r
+
+    \  \"tarifJournalier\": 70.00,\r
+
+    \  \"statut\": \"DISPONIBLE\"\r
+
+    }"
+order: 1000

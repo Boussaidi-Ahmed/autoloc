@@ -1,0 +1,22 @@
+$kind: http-request
+name: New Request
+url: http://localhost:8080/vehicule/update/2
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \  \"immatriculation\": \"999TUN9999\",\r
+
+    \  \"marque\": \"Dacia\",\r
+
+    \  \"modele\": \"Sandero\",\r
+
+    \  \"categorie\": \"CITADINE\",\r
+
+    \  \"tarifJournalier\": 75.00,\r
+
+    \  \"statut\": \"LOUE\"\r
+
+    }"
+order: 5000

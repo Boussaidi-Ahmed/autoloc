@@ -1,0 +1,53 @@
+$kind: http-request
+url: http://localhost:8080/vehicule/getById/5
+method: GET
+body:
+  type: json
+  content: "{\r
+
+    \  \"nom\": \"Agence Sousse\",\r
+
+    \  \"ville\": \"Sousse\",\r
+
+    \  \"adresse\": \"Bd de la Corniche\",\r
+
+    \  \"telephone\": \"73000000\",\r
+
+    \  \"vehicules\": [\r
+
+    \    {\r
+
+    \      \"immatriculation\": \"555TUN5555\",\r
+
+    \      \"marque\": \"Peugeot\",\r
+
+    \      \"modele\": \"208\",\r
+
+    \      \"categorie\": \"CITADINE\",\r
+
+    \      \"tarifJournalier\": 80.00,\r
+
+    \      \"statut\": \"DISPONIBLE\"\r
+
+    \    },\r
+
+    \    {\r
+
+    \      \"immatriculation\": \"666TUN6666\",\r
+
+    \      \"marque\": \"Renault\",\r
+
+    \      \"modele\": \"Clio\",\r
+
+    \      \"categorie\": \"BERLINE\",\r
+
+    \      \"tarifJournalier\": 95.00,\r
+
+    \      \"statut\": \"DISPONIBLE\"\r
+
+    \    }\r
+
+    \  ]\r
+
+    }"
+order: 6000

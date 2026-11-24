@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://localhost:8080/employe
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"idEmploye\": 0,\r
+
+    \  \"nom\": \"Ben Ali\",\r
+
+    \  \"prenom\": \"Sami\",\r
+
+    \  \"role\": \"AGENT\"\r
+
+    }"
+order: 3000

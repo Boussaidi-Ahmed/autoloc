@@ -1,0 +1,31 @@
+$kind: http-request
+url: http://localhost:8080/vehicule
+method: GET
+body:
+  type: json
+  content: "{\r
+
+    \  \"idVehicule\": 0,\r
+
+    \  \"immatriculation\": \"\",\r
+
+    \  \"marque\": \"\",\r
+
+    \  \"modele\": \"\",\r
+
+    \  \"categorie\": \"CITADINE\",\r
+
+    \  \"tarifJournalier\": {},\r
+
+    \  \"statut\": \"DISPONIBLE\",\r
+
+    \  \"agence\": {},\r
+
+    \  \"maintenances\": [],\r
+
+    \  \"reservations\": [],\r
+
+    \  \"equipements\": []\r
+
+    }"
+order: 2000
